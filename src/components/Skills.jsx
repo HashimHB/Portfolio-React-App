@@ -9,6 +9,8 @@ import python from '../assetes/python.png';
 import nodejs from '../assetes/nodejs.png';
 import html from '../assetes/html.png';
 import css from '../assetes/CSS.png';
+import bootstrap from '../assetes/bootstrap.png';
+import wordpress from '../assetes/wordpress.png';
 
 const Skills = () => {
     return (
@@ -59,6 +61,14 @@ const Skills = () => {
               <div className='shadow-md shadow-[#b2b4b6] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={mongodb} alt="mongodb icon" />
                   <p className='my-4'>MONGODB</p>
+              </div>
+              <div className='shadow-md shadow-[#b2b4b6] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={bootstrap} alt="mongodb icon" />
+                  <p className='my-4'>BOOTSTRAP</p>
+              </div>
+              <div className='shadow-md shadow-[#b2b4b6] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={wordpress} alt="mongodb icon" />
+                  <p className='my-4'>WORDPRESS</p>
               </div>
           </div>
       </div>
